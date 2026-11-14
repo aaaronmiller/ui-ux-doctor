@@ -1,11 +1,5 @@
 # UI/UX Doctor
 
-<p>
-<img src="https://img.shields.io/badge/Claude%20Code-Skill-8b5cf6?style=flat-square&logo=anthropic&logoColor=white">
-<img src="https://img.shields.io/badge/Modes-10-0ea5e9?style=flat-square">
-<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
-</p>
-
 Diagnose, audit, and improve existing user interfaces. This skill reviews, fixes, and elevates what already exists rather than creating from scratch.
 
 ## What This Skill Does

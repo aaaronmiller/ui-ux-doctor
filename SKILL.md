@@ -1,6 +1,6 @@
 ---
 name: auditing-ui-ux
-description: "Audits and improves existing UI/UX. Triggers on: review, fix, audit, improve, check, redesign, accessibility, what's wrong, best practices, UX issues, style migration."
+description: "Audits an existing interface for usability, accessibility and visual problems, then fixes them. Use to review, improve or redesign a UI."
 license: MIT
 ---
 
@@ -44,7 +44,7 @@ references/ux-guidelines.md. Output Do/Don't pairs with fix suggestions.
 Trigger: "UX issues", "anti-patterns", "what's wrong", "pain points"
 
 ### Mode 3: Stack Best Practices
-Load the appropriate stack reference from data/stacks/ and provide
+Load the appropriate stack reference from `ui-ux-pro-max/data/stacks/` (the ui-ux-pro-max skill) (install that skill alongside this one) and provide
 framework-specific guidance for the user's actual tech stack.
 Trigger: "best practices for [framework]", "React patterns", "Vue tips"
 
@@ -216,15 +216,15 @@ When suggesting fixes, NEVER recommend:
 
 ## 5. Stack-Specific Guidance
 
-When a stack is identified, read the corresponding file from data/stacks/:
-- data/stacks/react.csv for React/Next.js
-- data/stacks/vue.csv for Vue/Nuxt
-- data/stacks/svelte.csv for Svelte/SvelteKit (PRIMARY - weight heavily)
-- data/stacks/html-tailwind.csv for vanilla HTML + Tailwind
-- data/stacks/react-native.csv for React Native
-- data/stacks/flutter.csv for Flutter
-- data/stacks/swiftui.csv for SwiftUI
-- data/stacks/android.csv for Android/Jetpack Compose
+When a stack is identified, read the corresponding file from `ui-ux-pro-max/data/stacks/` (the ui-ux-pro-max skill) (these files ship with ui-ux-pro-max, not with this skill; if it is not installed, say so and give general guidance):
+- `ui-ux-pro-max/data/stacks/react.csv` for React/Next.js
+- `ui-ux-pro-max/data/stacks/vue.csv` for Vue/Nuxt
+- `ui-ux-pro-max/data/stacks/svelte.csv` for Svelte/SvelteKit (PRIMARY - weight heavily)
+- `ui-ux-pro-max/data/stacks/html-tailwind.csv` for vanilla HTML + Tailwind
+- `ui-ux-pro-max/data/stacks/react-native.csv` for React Native
+- `ui-ux-pro-max/data/stacks/flutter.csv` for Flutter
+- `ui-ux-pro-max/data/stacks/swiftui.csv` for SwiftUI
+- `ui-ux-pro-max/data/stacks/android.csv` for Android/Jetpack Compose
 
 Priority weighting: Svelte/SvelteKit guidance is most detailed. React/Next.js second.
 All others treated equally.
