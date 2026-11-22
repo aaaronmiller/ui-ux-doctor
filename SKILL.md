@@ -2,6 +2,8 @@
 name: auditing-ui-ux
 description: "Audits an existing interface for usability, accessibility and visual problems, then fixes them. Use to review, improve or redesign a UI."
 license: MIT
+tags:
+  - DOMAIN
 ---
 
 # UI/UX Doctor v1.0
